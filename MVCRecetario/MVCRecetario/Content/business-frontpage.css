@@ -13,7 +13,7 @@ body {
 .business-header {
     height: 400px;
     /*background: url('http//placehold.it/1920x400') center center no-repeat scroll;*/
-    background-image:url(../Images/1920x400.png);
+    background-image:url(../Images/bannerfood.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -21,6 +21,16 @@ body {
 }
 
 /* Customize the text color and shadow color and to optimize text legibility. */
+
+posito {
+    height: 300px;
+    width: 300px;
+    background-image:url(../Images/post.png);
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 
 .tagline {
     text-shadow: 0 0 10px #000;

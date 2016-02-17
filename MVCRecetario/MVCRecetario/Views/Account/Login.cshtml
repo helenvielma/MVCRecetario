@@ -8,6 +8,11 @@
     <h1>@ViewBag.Title.</h1>
 </hgroup>
 
+<!-- Bootstrap Core CSS -->
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<!-- Custom CSS -->
+<link href="~/Content/business-frontpage.css" rel="stylesheet" />
+
 <section id="loginForm">
 <h2>Utilice una cuenta local para iniciar sesión.</h2>
 @using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl })) {
