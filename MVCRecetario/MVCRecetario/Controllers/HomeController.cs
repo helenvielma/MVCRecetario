@@ -27,5 +27,7 @@ namespace MVCRecetario.Controllers
 
             return View("Contact");
         }
+
+      
     }
 }
